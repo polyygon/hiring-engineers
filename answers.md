@@ -189,6 +189,7 @@
 
   **Any metric from the Integration on your Database with the anomaly function applied.**
     * anomaly detection can be called via the datadog API (see complete script above for context):
+
     ```
     "definition": {
         "requests": [
@@ -204,7 +205,7 @@
         "viz": "timeseries"
         },
         "title": "Avg of mongodb.mem.bits over *"
-    ```
+     ```
 
   **Your custom metric with the rollup function applied to sum up all the points for the past hour into one bucket**
 Please be sure, when submitting your hiring challenge, to include the script that you've used to create this Timeboard.
@@ -308,7 +309,7 @@ Please include your fully instrumented app in your submission, as well.
 ## Final Question:
 
 **Datadog has been used in a lot of creative ways in the past. We’ve written some blog posts about using Datadog to monitor the NYC Subway System, Pokemon Go, and even office restroom availability! Is there anything creative you would use Datadog for?**
-  * Seeing as this is a powerful monitoring platform you can gain insight into anything that changes states. It would be fun to outfit a smart home (or any commercial building) and all of its sensors to gain insight on power consumption, HVAC health, foot traffic, etc. 
+  * Seeing as this is a powerful monitoring platform you can gain insight into anything that changes states. It would be fun to outfit a smart home (or any commercial building) and all of its sensors to gain insight on power consumption, HVAC health, foot traffic, etc.
 
 ## References
  * [Guide to the Docker Agent](https://docs.datadoghq.com/agent/docker/)
